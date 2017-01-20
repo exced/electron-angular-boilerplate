@@ -1,7 +1,7 @@
 # Electron-photon-Angular-Boilerplate
 
 ### Install Angular-cli
-``bash
+```bash
 npm install -g angular-cli
 ```
 
