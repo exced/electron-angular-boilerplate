@@ -1,17 +1,23 @@
-# Electron-photon-Angular-Boilerplate
 
-### Install Angular-cli
+# Electron Angular Boilerplate
+
+Electron + photonkit + Angular boilerplate. 
+
+### Angular-cli
+Use angular-cli to scaffold your project.
+Generate new component, routes... in one command line
 ```bash
-npm install -g angular-cli
+ng g component chat
 ```
 
-### Use the Angular-cli to scaffold your application
+### Run your app
 ```bash
-ng new electron-photon-angular-boilerplate
-```
-### And generate component, routes...
-```bash
-ng g component myComponent
-ng g route myRoute
-```
+# ng serve (browser)
+yarn run start
 
+# electron serve
+yarn run electron 
+
+# package your app
+yarn run package-all
+```

@@ -1,20 +1,24 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
+
+import { ChatComponent } from './chat/chat.component';
+import { NewsComponent } from './news/news.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  declarations: [ 
+    AppComponent,
+    ChatComponent,
+    NewsComponent,
+    HomeComponent
+      ],
+  bootstrap: [ AppComponent ],
 })
 export class AppModule { }

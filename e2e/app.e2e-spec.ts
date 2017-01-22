@@ -1,10 +1,10 @@
-import { ElectronMEANBoilerplatePage } from './app.po';
+import { DemoPage } from './app.po';
 
-describe('electron-mean-boilerplate App', function() {
-  let page: ElectronMEANBoilerplatePage;
+describe('demo App', function() {
+  let page: DemoPage;
 
   beforeEach(() => {
-    page = new ElectronMEANBoilerplatePage();
+    page = new DemoPage();
   });
 
   it('should display message saying app works', () => {

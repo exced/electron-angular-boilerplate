@@ -1,27 +1,30 @@
 <div class="window">
   <div class="window-content">
     <nav class="nav-group">
+
       <h5 class="nav-group-title">Favorites</h5>
-      <a class="nav-group-item active">
+
+      <a class="nav-group-item active" routerLink="/home" routerLinkActive="active">
         <span class="icon icon-home"></span>
         home
       </a>
-      <span class="nav-group-item">
+
+      <a class="nav-group-item" routerLink="/chat" routerLinkActive="active">
         <span class="icon icon-chat"></span>
         chat
-      </span>
-      <span class="nav-group-item">
+      </a>
+
+      <a class="nav-group-item" routerLink="/news" routerLinkActive="active">
         <span class="icon icon-rss"></span>
         news
-      </span>
+      </a>
+
     </nav>
     <div class="pane">
-      <nav>
-        <a routerLink="/login" routerLinkActive="active">Login</a>
-        <a routerLink="/authorized" routerLinkActive="active">Authorized</a>
-      </nav>
+
+      <router-outlet></router-outlet>
+
     </div>
+
   </div>
 </div>
-
-<router-outlet></router-outlet>
