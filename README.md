@@ -22,4 +22,4 @@ yarn run electron
 yarn run package-all
 ```
 
-![example](http://github.com/exced/electron-angular-boileraplte/extras/01)
+![example](https://github.com/exced/electron-angular-boilerplate/blob/master/extras/01.png)
