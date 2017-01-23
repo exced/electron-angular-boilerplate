@@ -22,4 +22,5 @@ yarn run electron
 yarn run package-all
 ```
 
-![example](https://github.com/exced/electron-angular-boilerplate/blob/master/extras/01.png)
+![chat component](https://github.com/exced/electron-angular-boilerplate/blob/master/extras/01.png)
+![news component](https://github.com/exced/electron-angular-boilerplate/blob/master/extras/02.png)
