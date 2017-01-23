@@ -21,3 +21,5 @@ yarn run electron
 # package your app
 yarn run package-all
 ```
+
+![example](http://github.com/exced/electron-angular-boileraplte/extras/01)
